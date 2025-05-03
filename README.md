@@ -1,2 +1,8 @@
-# GettingAndCleaningData-CourseProject
-This repository contains the files for completing the Getting And Cleaning Data course project.
+# Getting and Cleaning Data Course Project
+
+The purpose of this project is to practice preparing tidy data for later analysis. The data set used is data collected from the accelerometers in Samsung Galaxy S smartphones. A full description of the data set is found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. The data used for the project is here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+## Files Description
+1. `README.md`: Description of the project and files in the repository.
+2. `CodeBook.md`: Description of the variables, the data, and transformations performed.
+3. `run_analysis.R`: Script that reads and transforms data into tidy data.
