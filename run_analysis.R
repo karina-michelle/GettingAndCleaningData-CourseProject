@@ -36,4 +36,4 @@ colnames(mergedSet)[1] <- "Subject"
 ## Average each variable for each activity and each subject
 avgMergedSet <- mergedSet %>%
         group_by(Subject, Activity) %>%
-        summarise(across(-(1:2), mean))
+        summarise_all(mean)
